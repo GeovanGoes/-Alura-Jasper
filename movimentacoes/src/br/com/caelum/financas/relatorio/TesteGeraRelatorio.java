@@ -70,7 +70,7 @@ public class TesteGeraRelatorio {
 			JRExporter exporter = new JRPdfExporter();
 			
 			exporter.setParameter(JRExporterParameter.JASPER_PRINT, fillReport);
-			exporter.setParameter(JRExporterParameter.OUTPUT_STREAM, new FileOutputStream("minhaRola.pdf"));
+			exporter.setParameter(JRExporterParameter.OUTPUT_STREAM, new FileOutputStream("relatorio.pdf"));
 			
 			exporter.exportReport();
 			
